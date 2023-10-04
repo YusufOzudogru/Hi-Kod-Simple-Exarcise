@@ -1,0 +1,72 @@
+
+x = int(input("bir değer giriniz "))
+y = float(x)
+print(y)
+
+----------------------------------
+
+isim1 = str(input("isim1 giriniz "))
+isim2 = str(input("isim2 giriniz "))
+isim3 = str(input("isim3 giriniz "))
+
+if isim1 > isim2 and isim1 > isim3:
+    print(isim1 + " en büyük kişidir")
+    
+elif isim2 < isim1 and isim2 < isim3:
+    print(isim2 + " en küçüktür")
+    
+else:
+    print(isim3 + " ortancadır")
+    
+----------------------------------
+
+deger1 = int(input("sayı1 giriniz "))
+deger2 = int(input("sayı2 giriniz"))
+
+sonuç1 = deger1 + deger2
+sonuç2 = deger1 * deger2
+sonuç3 = deger1 - deger2
+sonuç4 = deger1 / deger2
+print(sonuç1,sonuç2,sonuç3,sonuç4)
+
+----------------------------------
+
+isim = str(input("isminizi giriniz "))
+yas = int(input("yaşınızı giriniz "))
+şehir = str(input("şehrinizi giriniz "))
+meslek = str(input("mesleğinizi giriniz "))
+print(isim,yas,şehir,meslek)
+
+----------------------------------
+
+kelime = "Hi-Kod Veri Bilimi Atölyesi"
+print(kelime[:].upper())
+print(kelime[:].lower())
+
+----------------------------------
+
+sayılar = 0,1,2,3,4,5,6,7,8,9
+çiftler = sayılar[::2]
+print(çiftler)
+tekler = sayılar[1::2]
+print(tekler)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
